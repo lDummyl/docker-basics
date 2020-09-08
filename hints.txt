@@ -1,0 +1,5 @@
+remove all containers
+docker rm -vf $(docker ps -a -q)
+remove all images
+docker rmi -f $(docker images -a -q)
+
