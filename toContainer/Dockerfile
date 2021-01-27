@@ -2,6 +2,7 @@ FROM alpine
 WORKDIR /root/basics
 #inside of container
 COPY ReadExternal.class /root/basics
+ADD . /root/basics/data/in
 #copy from Dockerfile location to path in container
  
 #install jdk
